@@ -1,0 +1,20 @@
+{
+  "name": "MSW",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tbrown90/MSW",
+  "authors": [
+    "Terry Brown <tjbrown90@gmail.com>"
+  ],
+  "license": "All Rights Reserved",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngCordova": "~0.1.14-alpha"
+  }
+}
