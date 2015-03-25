@@ -1,0 +1,18 @@
+<div>
+    <div class="goal-input">
+        <label for="must">Must: </label>
+        <textarea id="must" placeholder="A goal that you must get done today." maxlength="140" rows="4" ng-model="goal.must"></textarea>
+    </div>
+    
+    <div class="goal-input">
+        <label for="should">Should: </label>
+        <textarea id="should" placeholder="A goal that you probably get done today." maxlength="140" rows="4" ng-model="goal.should"></textarea>
+    </div>
+    
+    <div class="goal-input">
+        <label for="want">Want: </label>
+        <textarea id="want" placeholder="A goal that you generally want to do today." maxlength="140" rows="4" ng-model="goal.want"></textarea>
+    </div>
+    
+    <button class="button" ng-click="addGoal(goal)">Add Goal</button>
+</div>
